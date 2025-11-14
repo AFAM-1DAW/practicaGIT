@@ -8,8 +8,8 @@ public class PracticaEntornos {
         int anyo = sc.nextInt();
 
         LocalDateTime fechaActual = LocalDateTime.now();
-        int anioActual = fechaActual.getYear(); // Variable intermedia
-        int edad = anioActual - anyo; // Corrección
+        int anioActual = fechaActual.getYear();
+        int edad = anioActual - anyo;
 
         System.out.println("Año actual: " + anioActual);
         System.out.println("------------------------------");
